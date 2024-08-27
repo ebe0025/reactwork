@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+img {
+  height: 300px;
+}
+
+.main-bg {
+  height: 300px;
+  background-image: url("./img/shop1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* 투명 불투명 애니메이션 */
+.start {
+  opacity : 0;
+  transform: rotateZ(180deg);
+  
+}
+.end {
+  opacity : 1;
+  transform: rotateX(0deg);
+  transform: rotateZ(0deg);
+  transition : all 1s;
+}
+
+
+/* 크기 조절 애니메이션 */
+/*
+.start {
+  transform: scale(0);
+}
+.end {
+  transform: scale(1);
+  transition : all 1s;
+}
+*/
+
