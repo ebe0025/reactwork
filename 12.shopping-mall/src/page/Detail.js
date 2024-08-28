@@ -22,10 +22,10 @@ import { useDispatch } from "react-redux";
 // 1. Context Api
 function Detail (props) {
 
-    let {index} = useParams();
+    let {i} = useParams();
 
     let findId = props.shops.find(function(x) {
-        return x.id == index;
+        return x.id == i;
     })
 
 

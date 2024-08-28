@@ -71,7 +71,7 @@ function App() {
 
           </>
         }/>
-        <Route path='/detail/:index' element={<Detail shops={shops} bg="green"/>}/>
+        <Route path='/detail/:i' element={<Detail shops={shops} bg="green"/>}/>
         <Route path='/cart' element={<Cart />}/>
         <Route path='*' element={<div>없는 페이지 입니다.</div>}/>
       </Routes>
